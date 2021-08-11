@@ -72,7 +72,10 @@ export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/$USER/.openmpi/lib"
 ```bash
 cd ~/Desktop/sharedfolder   
 ```
-make cluster list that contain nodes' ip-addr in cluster-list   
+make cluster list that contain nodes' ip-addr in cluster_list
+```bash
+vi cluster_list
+```
 ```bash
 <masterIP>
 <worker1IP>
