@@ -46,8 +46,8 @@ sudo apt-get install nfs-common
 sudo mkdir -p /home/$USER/Desktop/sharedfolder   
 sudo mount <masterIP>:/home/$USER/Desktop/sharedfolder /home/$USER/Desktop/sharedfolder   
 ```
-insert the file to make sure it's properly built.
-note: nfs unmount when the power is shut down, so we need to mount it again after booting.
+insert the file to make sure it's properly built.   
+note: nfs unmount when the power is shut down, so we need to mount it again after booting.   
 
 # Setup OpenMPI
 ## for all nodes
