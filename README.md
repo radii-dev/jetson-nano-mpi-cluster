@@ -81,9 +81,8 @@ vi cluster_list
 <worker1IP>
 <worker2IP>
 ```
+add bear if you use   
 ```bash
 bear mpic++ hello-mpi.cpp -o hello-mpi   
 mpirun -np <number of process> --hostfile cluster_list ./hello-mpi   
 ```
-add bear if you use   
-
