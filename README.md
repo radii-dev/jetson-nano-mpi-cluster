@@ -72,11 +72,11 @@ export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/$USER/.openmpi/lib"
 ```bash
 cd ~/Desktop/sharedfolder   
 ```
-make cluster list that contain nodes' ip-addr   
+make cluster list that contain nodes' ip-addr in cluster-list   
 ```bash
-masterIP
-worker1IP
-worker2IP
+<masterIP>
+<worker1IP>
+<worker2IP>
 ```
 ```bash
 bear mpic++ hello-mpi.cpp -o hello-mpi   
