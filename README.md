@@ -78,9 +78,9 @@ masterIP
 worker1IP
 worker2IP
 ```
-
 ```bash
 bear mpic++ hello-mpi.cpp -o hello-mpi   
 mpirun -np <number of process> --hostfile cluster_list ./hello-mpi   
 ```
+add bear if you use   
 
