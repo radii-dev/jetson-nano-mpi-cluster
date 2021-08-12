@@ -9,7 +9,7 @@ Use mpich or openmpi above jetson nano to build the cluster.
 sudo apt-get install openssh-server openssh-client   
 mkdir ~/.ssh   
 chmod 700 ~/.ssh   
-```
+```bash
 ## for master node
 ```
 ssh-keygen -t rsa   
