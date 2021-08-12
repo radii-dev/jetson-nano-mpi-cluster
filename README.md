@@ -11,7 +11,7 @@ mkdir ~/.ssh
 chmod 700 ~/.ssh   
 ```
 ## for master node
-```bash
+```
 ssh-keygen -t rsa   
 ssh-copy-id <WORKER-NODE-IP-ADDRESS>   
 ```
