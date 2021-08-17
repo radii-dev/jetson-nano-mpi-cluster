@@ -5,13 +5,13 @@ Use mpich or openmpi above jetson nano to build the cluster.
 ### All nodes must have the same username.   
 
 ## for all nodes  
-```
+```bash
 sudo apt-get install openssh-server openssh-client   
 mkdir ~/.ssh   
 chmod 700 ~/.ssh   
-```bash
-## for master node
 ```
+## for master node
+```bash
 ssh-keygen -t rsa   
 ssh-copy-id <WORKER-NODE-IP-ADDRESS>   
 ```
